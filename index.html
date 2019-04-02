@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script defer src="js/app.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <h1>Tamagotchi Pet Game</h1>
+    <div class="unit">
+      <div class="screen">
+        <img src="images/standing.gif" id="pic">
+        <span class="stats" id='age'>age: 0</span>
+        <span class="stats" id='hung'>hunger: 0</span>
+        <span class="stats" id='sleep'>sleepiness: 0</span> <br>
+        <span class="stats" id='bore'>boredom: 0</span>
+        <span class="stats" id='name'>user name</span>
+      </div>
+      <div>
+        <tr>
+          <button type="button" class="button" id="left">feed</button>
+          <button type="button" class="button" id="center">sleep</button>
+          <button type="button" class="button" id="right">play</button>
+
+        </tr>
+      </div>
+    </div>
+    <form>
+      <input type="text" id='pet-name' placeholder="Enter your pets name">
+      <button type="button" id='pet-btn'>Create</button>
+      <button value="Refresh Page" id="reset-btn" onClick="window.location.reload()">Reset</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+.unit {
+  background-color: black;
+  height: 420px;
+  width: 360px;
+  text-align: center;
+  border-radius: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screen {
+  background-color: white;
+  height: 220px;
+  width: 220px;
+  display: inline-block;
+  margin: 80px 30px 10px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 0px 0px 10px gray;
+}
+
+.button {
+  font-size: 25px;
+  margin: 15px 5px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px gray;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#bore {
+  position: absolute;
+   bottom: 20px;
+   left: 10px;
+}
+
+#sleep {
+  position: absolute;
+   bottom: 5px;
+   left: 10px;
+}
+#hung {
+  position: absolute;
+ bottom: 20px;
+ right: 10px;
+}
+#age {
+  position: absolute;
+ bottom: 5px;
+ right: 10px;
+}
+
+#name {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: blue
+}
+
+
+img{
+  max-width:100%;
+  max-height:100%;
+}
+
+#pet-name {
+  font-size: large;
+  margin: 10px 5px
+
+}
+#pet-btn {
+  font-size: large;
+  margin: 10px 5px;
+
+}
+
+#reset-btn {
+  font-size: large;
+  margin: 10px 5px
+}
+
+
+body {
+  text-align: center;
+  background-image: url("/Users/Omay/Documents/omayGA/sei-class/4-1-handling-input/tamagotchi/Tomagotchi-Mini-Project/images/tama.jpg");
+  background-position: center;
+}
